@@ -1,0 +1,47 @@
+.imac {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.imac_container {
+    display: flex;
+}
+
+.imac_restangle {
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(rgba(126, 130, 238, 0.4), rgba(126, 130, 238, 1));
+    border: 1px solid #7B7EF1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.imac_restangle:first-child {
+    border-radius: 6px 0px 0px 6px;
+}
+
+.imac_restangle:last-child {
+    background: linear-gradient(rgba(240, 88, 88, 0.4), rgba(240, 88, 88, 1));  
+    border-radius: 0 6px 6px 0;
+    border: 1px solid #E34F4F;
+}
+
+.imac_restangle:hover {
+    background: linear-gradient(rgba(70, 76, 227, 1), rgba(70, 76, 227, 1));
+    border: 1px solid #464CE3;   
+}
+
+.imac_restangle:last-child:hover {
+    background: linear-gradient( rgba(220, 45, 45, 1), rgba(220, 45, 45, 1));
+    border: 1px solid #CE4141;
+}
+
+.imac_logo {
+    width: 16px;
+    height: 16px;
+}
+
